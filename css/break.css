@@ -14,11 +14,6 @@
         padding: 8px 12px;
         font-size: 18px;
     }
-    header nav {
-        padding: 10px;
-        font-size: 14px;
-        font-family: var(--font-primary);
-    }
     #mobile-social-links { display: block; }
     #desktop-social-links { display: none; }
     main p {
