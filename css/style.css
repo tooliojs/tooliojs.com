@@ -1,6 +1,6 @@
 body {
     color: white;
-    background: #101C29;
+    background: #e5e0d8;
 }
 
 main {
@@ -48,3 +48,7 @@ main {
 }
 
 .mg-top { margin-top: 20px; }
+
+i:hover {
+  color: #ff66c4;
+}
