@@ -1,54 +1,69 @@
+@font-face {
+    font-family: Gagalin;
+    src: url(https://arakilian0.github.io/fonts/Gagalin/Gagalin-Regular.ttf)
+}
+
+:root {
+    --color-primary: #fff;
+    --color-secondary: #ff66c4;
+    --font-primary: Gagalin, Helvetica, Arial;
+    --font-secondary: Jost, Helvetica, Arial;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    text-decoration: none;
+    color: inherit;
+    background: inherit;
+    list-style-type: none;
+}
 body {
     color: #0FA3B1;
     background: #e5e0d8;
 }
-
-main {
-    padding: 40px;
-    width: 50%;
-    margin: 0 auto 0 auto;
-    text-align: center;
-    /* background: red; */
+h1 {
+    margin: 32px 0;
+    font-size: 60px;
+    font-family: var(--font-primary);
+    color: var(--color-secondary);
 }
-    main h1 {
-        padding: 20px;
-    }
-    main h2 {
-        padding: 20px;
-    }
-    main ul {
-        /* padding: 40px; */
-        display: flex;
-        justify-content: center;
-    }
-        main ul li{
-            padding: 8px 12px;
-            font-size: 22px;
-        }
-        main p {
-            padding: 8px 0;
-            text-align: left;
-            font-size: 20px;
-            font-family: var(--font-secondary);
-        }
-
-#mobile-social-links {
-    display: none;
-}
-
-.coc-ul {
+h2 {
+    font-size: 24px;
     font-family: var(--font-secondary);
-    display: block;
-    list-style-type: disc;
-    text-align: left;
 }
-.coc-ul li {
-    padding: 8px 12px 8px 36px;
-    font-size: 18px;
+main {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+main h1, h2 {
+    padding: 20px;
+}
+main ul {
+    display: flex;
+    justify-content: center;
+}
+main ul li{
+    padding: 8px 12px;
+    font-size: 22px;
+}
+main p {
+    padding: 8px 0;
+    text-align: left;
+    font-size: 20px;
+    font-family: var(--font-secondary);
 }
 
-.mg-top { margin-top: 20px; }
+#social-links {
+    margin: 32px 0;
+    padding: 20px;
+}
 
 i:hover {
-  color: #ff66c4;
+    color: #ff66c4;
 }

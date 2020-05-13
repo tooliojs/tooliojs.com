@@ -1,0 +1,27 @@
+/*
+  CSS Responsive Break
+  Developed to be mobile first.
+  Remember, keep it light: Speed is Important!
+*/
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    h1 { font-size: 80px; }
+    h2 { font-size: 32px; }
+    main { width: 50%; }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    h1 { font-size: 80px; }
+    h2 { font-size: 32px; }
+    main { width: 50%; }
+}
