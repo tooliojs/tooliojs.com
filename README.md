@@ -1,8 +1,5 @@
 # [tooliojs.com](https://tooliojs.com)
 
-more coming soon...
-
-
 ## License
 MIT License
 
